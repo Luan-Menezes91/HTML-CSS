@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: 'Work Sans', Arial,  Helvetica, sans-serif;
+           font-size: 1em;
+            /*
+            Medidas Absolutas
+            mm, cm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw,  vh, %
+            16px geralmente = 1em
+            */
+
+            /* Propriedade shorthand font
+            font-style -> font-weight-> font-size -> font-family  
+
+            font-style: Italic
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: Arial, sans-serif;
+
+            -> NECESSÁRIO DECLARAR AO MENOS FONT-SIZE E FONT FAMILY <-
+              
+            */
+        }
+        h1 {
+            font-size: 5em;
+            font-family: 'Courier New', Courier, monospace
+        }
+        h2 {
+            font-size: 3em; 
+            font-family: 'Courier New', Courier, monospace
+        }
+        p {
+            font: lighter 2em 'Work Sans', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trbalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam explicabo ab deleniti. Dolore ipsa repellat nam, veritatis voluptates commodi tempora facere, totam iste, iusto velit quod officiis quaerat praesentium amet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias sapiente doloribus, officia accusantium ut totam magnam recusandae. Pariatur tenetur veniam tempore alias, laborum natus molestias corrupti nam commodi praesentium debitis.</p>
+        <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita atque rem ad, illum ipsum vitae consequuntur fuga in sapiente aspernatur possimus beatae, eius harum at debitis incidunt adipisci enim fugiat!</p>
+</body>
+</html>
